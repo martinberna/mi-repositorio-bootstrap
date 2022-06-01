@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="assets/img/square-pen-solid.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/stylesheet2.css"> 
+    
+
+    <title>Mi Portafolio - Contacto</title>
+
+</head>
+<body>
+    <header class="header">
+        <div class="logo"></div>
+        <nav class="nav"> 
+            <ul>
+                <li id="inicio" class="navItem"><a href="../index.html"> Incio </a></li>
+                <li id="sobreNos" class="navItem"><a href="sobre-nos.html"> Sobre Nosotros </a></li>
+                <li id="img" class="navItem"><a href="imagenes.html"> Imagenes </a></li>
+                <li id="contacto" class="navItem"><a href="contacto.html"> Contacto </a></li>
+                <!-- <li id="" class=""><a href="#"></a></li> -->
+            </ul>
+        </nav>
+    </header> 
+    
+    <main class="contactoMain">
+
+        <h1 class="contactoH1"> Contacto </h1>
+
+        <form class="form">
+            <fieldset>
+        
+                <!-- <legend> &nbsp;Contacto&nbsp; </legend> -->
+        
+                <label for="nombre">Nombre:</label>
+                <input name="nombre" class="field" type="text" tabindex="1" placeholder="Nombre" required/> <br> <br>
+
+                <label for="apellidos">Apellidos:</label>
+                <input name="apellidos" class="field" type="text" tabindex="2" placeholder="Apellido" required/> <br> <br>
+
+                <label for="email">E-mail: </label>
+                <input name="email" class="field" type="email" tabindex="2" placeholder="tunombre@gmail.com" required/> <br> <br>
+
+                <label for="edad">Edad:</label>
+                <input type="number" name="edad" class="field"  placeholder="25" required/> <br> <br>
+
+                <label for="genero"> Género: </label>
+                <select name="genero" id="genero"    class="field">
+                    <option value="N"> - </option>
+                    <option value="M"> Masculino </option>
+                    <option value="F"> Femenino </option>
+                    <option value="X"> Otro </option>
+                </select> <br>
+
+                <label for="if"> En caso de querer especificar: </label>
+                <input type="text" name="if" class="field" placeholder="Por ej. No Binario"/> <br> <br>
+
+                <label for="comentarios">Comentarios:</label> <br>
+                <textarea name="Comentario" placeholder="Comentario" colls="10" rows="10" id="comentarios" class="field"> </textarea> <br> <br>
+
+                <input type="submit" value="&nbsp;Enviar&nbsp;" id="sendE"/> 
+                <input type="reset" value="&nbsp;Reiniciar Formulario&nbsp;" id="sendR"/> 
+                
+            </fieldset>
+        </form>
+
+    </main>
+
+    <footer class="footer">
+        <nav>
+            <ul class="footerList">
+                <li id="fb" class="navItem"><a href="https://es-la.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                <li id="ig" class="navItem"><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li id="tw" class="navItem"><a href="https://twitter.com/?lang=es" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+            </ul>
+        </nav>
+        <div> Martin Bernachea - Derechos Reservados &#169; </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+</body>
+</html>
